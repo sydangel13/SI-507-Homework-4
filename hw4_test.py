@@ -15,17 +15,11 @@ class TestCard(unittest.TestCase):
         self.assertEqual(card.suit_name, "Diamonds")
         self.assertEqual(card.rank, 2)
 
-    # Add methods below to test main assignments
+    # Add methods below to test main assignments. 
+    def test_1_queen(self):
+        pass
 
 
-class EC1(unittest.TestCase):
-    # Add methods below to test Extra Credit 1
-    pass
-
-
-class EC2(unittest.TestCase):
-    # Add methods below to test Extra Credit 2
-    pass
 
 ############
 ### The following is a line to run all of the tests you include:
